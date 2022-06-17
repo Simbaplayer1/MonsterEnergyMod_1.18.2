@@ -1,0 +1,5 @@
+{"type":"minecraft:crafting_shapeless",
+  "ingredients":[
+    {"item":"minecraft:gray_dye"},
+    {"item":"monsterenergymod:monster_khaos"}],
+  "result":{"item":"monsterenergymod:monster_khaos_alt"}}

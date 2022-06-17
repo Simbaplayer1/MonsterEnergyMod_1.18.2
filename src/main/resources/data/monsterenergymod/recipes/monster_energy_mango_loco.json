@@ -1,0 +1,12 @@
+{"type":"minecraft:crafting_shapeless",
+  "ingredients":[
+    {"item":"minecraft:honeycomb"},
+    {"item":"minecraft:blaze_powder"},
+    {"item":"minecraft:cyan_dye"},
+    {"item":"monsterenergymod:water_filled_monster_can"},
+    {"item":"monsterenergymod:caffeine_powder"},
+    {"item":"monsterenergymod:monster_formula"},
+    {"item":"minecraft:sugar"},
+    {"item":"monsterenergymod:taurine_powder"},
+    {"item":"monsterenergymod:vitamin_powder"}],
+  "result":{"item":"monsterenergymod:monster_mango_loco"}}

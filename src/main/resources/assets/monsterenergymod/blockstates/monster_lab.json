@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "monsterenergymod:block/monster_lab"},
+    "facing=east": { "model": "monsterenergymod:block/monster_lab", "y": 90},
+    "facing=south": { "model": "monsterenergymod:block/monster_lab", "y": 180},
+    "facing=west": { "model": "monsterenergymod:block/monster_lab", "y": 270}
+  }
+}

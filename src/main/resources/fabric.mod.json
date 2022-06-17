@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "monsterenergymod",
+  "version": "${version}",
+
+  "name": "Monster Energy Mod",
+  "description": "This Mod adds the energy drink Monster Energy to Minecraft!",
+  "authors": [
+    "Simbaplayer"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/monsterenergymod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.simbaplayer.monsterenergymod.MonsterEnergyMod"
+    ]
+  },
+  "mixins": [
+    "monsterenergymod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{"type":"minecraft:crafting_shapeless",
+  "ingredients":[
+    {"item":"minecraft:scute"},
+    {"item":"minecraft:spider_eye"},
+    {"item":"minecraft:gray_dye"},
+    {"item":"monsterenergymod:water_filled_monster_can"},
+    {"item":"minecraft:clay_ball"},
+    {"item":"monsterenergymod:monster_formula"},
+    {"item":"minecraft:sugar"},
+    {"item":"monsterenergymod:taurine_powder"},
+    {"item":"monsterenergymod:vitamin_powder"}],
+  "result":{"item":"monsterenergymod:monster_unleaded"}}
