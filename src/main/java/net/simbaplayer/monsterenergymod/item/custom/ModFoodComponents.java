@@ -58,34 +58,42 @@ public class ModFoodComponents {
             StatusEffects.SPEED, 6000, 2), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_GREEN = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.LUCK, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_PINK_LEMONADE = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.INSTANT_HEALTH, 1, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 1), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_LEMONADE = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.ABSORPTION, 2400, 4), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_PROTEAN = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.NIGHT_VISION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_PEACH = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.HASTE, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_ROJO = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.STRENGTH, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_RASPBERRY = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.HEALTH_BOOST, 1200, 4), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
     public static final FoodComponent MONSTER_REHAB_ORANGEADE = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(
+            StatusEffects.SATURATION, 2400, 2), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.REGENERATION, 2400, 0), 1.0f).statusEffect(new StatusEffectInstance(
             StatusEffects.SPEED, 6000, 0), 1.0f).alwaysEdible().build();
 
